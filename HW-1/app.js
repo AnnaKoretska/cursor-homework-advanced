@@ -7,7 +7,7 @@ const even = Math.floor(sum)/2 ===0;
 const difference = Math.abs (sum - 500);
 const middlePrice = (sum/3).toFixed(2);
 const discount = Math.floor(Math.random(5)*80); 
-const sumWithDiscount = sum-(sum*discount/100).toFixed(2);
+const sumWithDiscount = sum - (sum*discount/100).toFixed(2);
 const netProfit = (sum/2) - (sum*discount/100);
 console.log ( "Максимальне значення:" + Math.max(banana, peach, grape));
 console.log ("Мінімальне значення:" + Math.min(banana, peach, grape));
